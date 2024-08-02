@@ -10,7 +10,7 @@ if (age>=14){
 }else{
 	alert("Reviens dans quelques années");
 }
-*/
+
 
 let mdp="";
 let compte=0;
@@ -25,7 +25,7 @@ console.log("Mot de passe correct !");
 }
 
 
-
+*/
 
 
 
