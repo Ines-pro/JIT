@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Ghibli café</title>
+        <link rel="stylesheet" type="text/css" href="teststyle.css">  
+        
+        <!-- Importation de la font "Montserrat" -->   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="banniere">
+            <h1 id="titre-principal"> LE CAFE GHIBLI </h1>
+        </div>
+
+        <div class="menu-barre">
+            <ul class="menu-liste">
+                <li><a href="nouvellepage.html">Accueil</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="atmosphere.html">Atmosphère</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="div-café" class="div-flex" >
+            <img id="café" src="Images/cafe.jpg">
+            <quote id="citation-café">"On n’oublie jamais les gens qu’on a rencontré, on a juste du mal à s’en souvenir." </quote>
+        </div>
+
+        <div id="div-accueil">    
+            <h1 class = "titre-de-section">Bienvenue au Ghibli Café</h1>
+            <div class = "image-centree">
+                <img src="Images/Cesari.webp">
+            </div>
+        </div>
+
+
+     
+        
+        <div id="div-bouton" class="div-flex">
+            <button class="bouton" onclick="document.getElementById('background-music').play()">Lire la musique</button>
+            <audio id="background-music" loop>
+                <source src="Audio/Le-voyage-de-chihiro.mp3" type="audio/mp3">
+                Votre navigateur ne supporte pas l'élément audio.
+            </audio>
+        </div>
+
+    <script type="text/javascript" src="app.js"></script>
+    </body>
+
+</html>
+

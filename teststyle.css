@@ -1,0 +1,125 @@
+
+body, html, #titre-principal {
+    margin: 0;
+    padding: 0;
+}
+
+#banniere{
+	background-image: url("images/totoro.webp");
+	height: 350px;
+	width: 100%;	
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom;
+	opacity: 70%;
+	 display: flex;
+    justify-content: center;
+}
+
+#contenant{
+	background-color: #fffef7;
+
+}
+
+
+#titre-principal{
+	text-align: center;
+	padding-top: 150px;
+	font-size: 50px;
+	font-family: fantasy;
+}
+
+
+.menu-barre{
+	margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: rgba(186, 204, 186, 0.2);
+     position: sticky;
+    top: 0;
+    z-index: 1000; /* Assure que la barre de menu reste au-dessus des autres éléments */
+
+}
+
+
+.menu-liste {
+    list-style-type: none; /* Enlever les puces */
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Espacement uniforme */
+    margin: 0;
+}
+
+.menu-liste li {
+    padding-top: 0;
+    height: 60px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    margin: 0 0px;
+	padding : 0 9%;
+    line-height: 60px; /* Centrer verticalement les items */
+
+}
+
+.menu-liste li:hover{
+	background-color: darkgrey;
+	font-weight: bold;
+}
+
+
+.titre-de-section{
+	text-align: center;
+	font-family: "Montserrat";
+	font-style: italic;
+	font-size: 50px;
+	margin-bottom: 70px;
+}
+
+#café{
+	margin : 50px 40px;
+	margin-left: 100px;
+	border-radius: 10px;
+	width: 400px;
+}
+#café:hover{
+	opacity: 50%;
+}
+#citation-café{
+	font-style: italic;
+	font-family: ;
+	font-size: 40px;
+	font-weight: bold;
+	margin : 160px 80px;
+}
+.div-flex{
+	display: flex;
+	margin : 30px 0px;
+	justify-content: center;
+}
+
+.image-centree{
+	display: flex;
+	justify-content: center;
+}
+
+#div-accueil{
+	background-color: whitesmoke;
+	padding: 70px 0;
+}
+
+.bouton{
+	border-radius: 10px;
+	background-color: whitesmoke;
+	padding: 10px;
+	font-family: "montserrat";
+	display: flex;
+	border : antiquewhite;
+	cursor: pointer;
+}
+.bouton:hover {
+    background-color: #ddd; /* Couleur de fond au survol */
+}
+a {
+    text-decoration: none; /* Retire le soulignement */
+    color: inherit; /* Utilise la couleur par défaut du texte */
+}

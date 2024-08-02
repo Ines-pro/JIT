@@ -1,0 +1,87 @@
+body, html, #titre-principal{
+	margin : 0;
+	padding: 0;
+}
+
+
+#titre-principal{
+	font-size:45px;
+	text-align: center;
+	color : black;
+	font-family: fantasy;
+	padding-top: 120px;
+}
+
+#banniere{
+	background-image: url("images/totoro.webp");
+	height: 350px;
+	width: 100%;	
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom;
+	opacity: 70%;
+	 display: flex;
+    justify-content: center;
+
+}
+.menu-barre{
+    background-color: rgba(186, 204, 186, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Assure que la barre de menu reste au-dessus des autres éléments */
+
+}
+.menu-liste{
+	display : flex;
+	list-style-type: none; /* Enlever les puces */
+	justify-content: space-around;
+	margin :0;
+	padding:0;
+
+}
+
+.menu-liste li {
+
+	padding: 0 120px;
+	height: 50px;
+	line-height: 50px;
+	font-family: "montserrat";
+	font-size: 17px;
+
+}
+.menu-liste li:hover{
+	background-color: darkgrey;
+	font-weight: bold;
+}
+
+a {
+    text-decoration: none; /* Retire le soulignement */
+    color: inherit; /* Utilise la couleur par défaut du texte */
+}
+
+.div-flex{
+	display : flex;
+	justify-content: center;
+
+}
+#div-café{
+	margin-top:110px;
+	margin-left: 40px;
+
+}
+
+#café{
+	border-radius: 10px;
+
+}
+#café:hover{
+	opacity: 50%;
+}
+#citation-café{
+	font-style: italic;
+	font-family: ;
+	font-size: 40px;
+	font-weight: bold;
+	margin : 160px 80px;
+}
+
